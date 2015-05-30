@@ -32,5 +32,14 @@ namespace NHibernateTutorial.Repositories
         {
             return SessionFactory.OpenSession();
         }
+
+        public static void CloseSession()
+        {
+            if (_sessionFactory != null)
+            {
+                _sessionFactory.Close();
+            }
+        }
+
     }
 }

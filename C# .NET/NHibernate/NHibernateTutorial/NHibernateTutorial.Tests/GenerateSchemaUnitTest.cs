@@ -13,10 +13,10 @@ using System.Threading.Tasks;
 namespace NHibernateTutorial.Tests
 {
     [TestClass]
-    public class GenerateSchema_Fixture
+    public class GenerateSchemaUnitTest
     {
         [TestMethod]
-        public void Can_generate_schema()
+        public void GenerateSchemaTest()
         {
             var cfg = new Configuration();
             cfg.Configure();

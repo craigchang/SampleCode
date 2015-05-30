@@ -45,8 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GenerateSchema_Fixture.cs" />
-    <Compile Include="ProductRepository_Fixture.cs" />
+    <Compile Include="GenerateSchemaUnitTest.cs" />
+    <Compile Include="ProductRepositoryUnitTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

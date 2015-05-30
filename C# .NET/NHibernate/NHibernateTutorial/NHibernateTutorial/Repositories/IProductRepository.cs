@@ -9,6 +9,7 @@ namespace NHibernateTutorial.Repositories
 {
     public interface IProductRepository
     {
+        void CreateInitialData();
         void Add(Product product);
         void Update(Product product);
         void Remove(Product product);
