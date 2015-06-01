@@ -48,6 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Employee.cs" />
+    <Compile Include="Domain\Person.cs" />
+    <Compile Include="Repositories\EmployeeRepository.cs" />
+    <Compile Include="Repositories\IEmployeeRepository.cs" />
     <Compile Include="Repositories\IProductRepository.cs" />
     <Compile Include="Domain\Product.cs" />
     <Compile Include="Program.cs" />
@@ -66,9 +70,13 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SqlScripts\dbo.Employee.sql" />
+    <Content Include="SqlScripts\dbo.Person.sql" />
     <Content Include="hibernate.cfg.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <EmbeddedResource Include="Mappings\Person.hbm.xml" />
+    <EmbeddedResource Include="Mappings\Employee.hbm.xml" />
     <Content Include="SqlScripts\dbo.Product.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

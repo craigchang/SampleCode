@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmployeeRepositoryUnitTest.cs" />
     <Compile Include="GenerateSchemaUnitTest.cs" />
     <Compile Include="ProductRepositoryUnitTest.cs" />
     <Compile Include="Program.cs" />

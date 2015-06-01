@@ -21,7 +21,8 @@ namespace NHibernateTutorial.Repositories
                 {
                     var configuration = new Configuration();
                     configuration.Configure();
-                    configuration.AddAssembly(typeof(Product).Assembly);
+                    //configuration.AddAssembly(typeof(Product).Assembly);
+                    configuration.AddAssembly("NHibernateTutorial");
                     _sessionFactory = configuration.BuildSessionFactory();
                 }
                 return _sessionFactory;
