@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace NHibernateTutorial.Domain
 {
+    /// <summary>
+    /// An example domain object with a one-to-one mapping with Person class
+    /// </summary>
     public class Employee
     {
         public Employee()
