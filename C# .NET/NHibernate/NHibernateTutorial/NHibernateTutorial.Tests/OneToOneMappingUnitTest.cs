@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace NHibernateTutorial.Tests
 {
     [TestClass]
-    public class EmployeeRepositoryUnitTest
+    public class OneToOneMappingUnitTest
     {
         /// <summary>
         /// Test one-to-one mapping

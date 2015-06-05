@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace NHibernateTutorial.Tests
 {
     [TestClass]
-    public class GenerateSchemaUnitTest
+    public class NHibernateConfigUnitTest
     {
         [TestMethod]
         public void GenerateSchemaTest()

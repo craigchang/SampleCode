@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace NHibernateTutorial.Tests
 {
     [TestClass]
-    public class ProductRepositoryUnitTest
+    public class BasicCrudOpsUnitTest
     {
         private ISessionFactory _sessionFactory;
         private Configuration _configuration;

@@ -45,9 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmployeeRepositoryUnitTest.cs" />
-    <Compile Include="GenerateSchemaUnitTest.cs" />
-    <Compile Include="ProductRepositoryUnitTest.cs" />
+    <Compile Include="OneToOneMappingUnitTest.cs" />
+    <Compile Include="NHibernateConfigUnitTest.cs" />
+    <Compile Include="BasicCrudOpsUnitTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
