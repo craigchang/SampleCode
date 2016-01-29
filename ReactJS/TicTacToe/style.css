@@ -1,0 +1,12 @@
+/* Styles go here */
+div#root {
+  margin: 100px;
+}
+
+button {
+  width: 37px;
+}
+
+button.reset {
+  width: auto;
+}
