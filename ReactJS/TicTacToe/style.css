@@ -5,6 +5,7 @@ div#root {
 
 button {
   width: 37px;
+  height: 34px;
 }
 
 button.reset {
